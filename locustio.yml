@@ -1,0 +1,20 @@
+---
+execution:
+- executor: locust
+  concurrency:
+   local: 10
+   cloud: 10
+  locations:
+   us-west-1: 1
+  ramp-up: 30s
+  hold-for: 1m
+  scenario:
+   script: nodetest.py
+   default-address: http://localhost:3412
+
+modules:
+ cloud:
+  token: 302d9d04e924c6580bca
+  timeout: 5
+  browser-open: start
+  test: mynodetestwithtaurus
