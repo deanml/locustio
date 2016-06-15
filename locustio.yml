@@ -16,3 +16,12 @@ modules:
   timeout: 5
   browser-open: start
   test: mynodetestwithtaurus
+
+reporting:
+- module: final_stats
+  summary: true
+  percentiles:true
+  failed-labels: false
+  test-duration: true
+  dump-xml: results.xml
+  dump-csv: results.csv
