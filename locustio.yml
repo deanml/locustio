@@ -5,7 +5,7 @@ execution:
    local: 10
   ramp-up: 30s
   iterations: 1000
-  duration: 2m15s
+  hold-for: 2m15s
   scenario:
    script: nodetest.py
    default-address: http://10.74.98.113:3412
