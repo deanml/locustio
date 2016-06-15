@@ -4,7 +4,7 @@ execution:
   concurrency:
    local: 200
   ramp-up: 30s
-  iterations: 1000
+  iterations: 10000
   hold-for: 2m15s
   scenario:
    script: nodetest.py
