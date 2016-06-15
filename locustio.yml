@@ -2,7 +2,7 @@
 execution:
 - executor: locust
   concurrency:
-   local: 10
+   local: 200
   ramp-up: 30s
   iterations: 1000
   hold-for: 2m15s
