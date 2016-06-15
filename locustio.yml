@@ -4,7 +4,7 @@ execution:
   concurrency:
    local: 10
   ramp-up: 30s
-  iterations: 3000
+  iterations: 1000
   scenario:
    script: nodetest.py
    default-address: http://localhost:3412
