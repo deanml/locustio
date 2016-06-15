@@ -25,3 +25,6 @@ reporting:
   test-duration: true
   dump-xml: results.xml
   dump-csv: results.csv
+- module: junit-xml
+  filename: junitfile.xml
+  data-source: pass-fail
