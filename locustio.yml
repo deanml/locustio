@@ -7,7 +7,7 @@ execution:
   iterations: 1000
   scenario:
    script: nodetest.py
-   default-address: http://localhost:3412
+   default-address: http://10.74.98.113:3412
 
 modules:
  cloud:
