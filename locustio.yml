@@ -2,13 +2,13 @@
 execution:
 - executor: locust
   concurrency:
-   local: 200
-  ramp-up: 30s
-  iterations: 5000
-  hold-for: 2m15s
+   local: 300
+  ramp-up: 5m
+  iterations: 50000
+  hold-for: 5m15s
   scenario:
    script: nodetest.py
-   default-address: http://mdean01m.myfamily.int:3412
+   default-address: http://localhost:3412
 
 modules:
  cloud:
